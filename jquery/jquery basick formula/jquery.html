@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="peragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque amet, expedita et distinctio reprehenderit similique nemo magni unde consequatur quia harum ullam qui iusto odit doloribus modi assumenda! Distinctio quas reprehenderit similique non quis impedit cupiditate sit quam architecto. Illum corrupti pariatur consequatur numquam quasi minima placeat! Quisquam earum dolor animi aliquam est ducimus iure, eius, amet mollitia porro eveniet sunt temporibus vitae velit magnam aliquid doloremque architecto laborum odit similique impedit hic odio voluptatum! Provident veritatis consequatur optio quibusdam nostrum, in et ad quos illo doloribus totam vitae labore voluptatibus eum a corporis aliquam pariatur eaque itaque dolor!
+    </p>
+    <p class="up-down">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro et aut quas iste ducimus ab quis dolor non animi repudiandae voluptate atque incidunt repellendus cumque veniam architecto commodi nisi nostrum necessitatibus voluptas quaerat, tempora, sed assumenda! Fugiat minima voluptate sunt nulla sed officia sint quod quae? Illum corporis at eos neque unde eum ut, nesciunt, suscipit numquam dolore nulla dolor consequuntur mollitia laboriosam natus facere non repellendus atque. Temporibus sed aut eveniet tempora praesentium, corrupti nulla reiciendis reprehenderit eaque autem maxime veniam officia ullam nobis quam. Harum minus, assumenda magni rem porro consequatur laboriosam. Earum fugiat impedit quasi dolor maiores.
+    </p>
+    <button class="slide-up">slideup</button>
+    <button class="slide-down">slidedown</button>
+    <button class="toggle">toggle</button>
+    
+
+
+
+    <script src="js/jquery-3.6.4.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".peragraph").click(function(){
+                console.log("click-done");
+                $(".peragraph").hide({"color":"white","background":"black","text-decoration":"underline blue 4px"})
+            })
+            $(".slide-up").click(function(){
+                console.log("click-done");
+                $(".up-down").slideUp(2000);
+            })
+            $(".slide-down").click(function(){
+                console.log("click-done");
+                $(".up-down").slideDown(2000);
+            })
+            $(".toggle").click(function(){
+                console.log("click-done");
+                $(".up-down").toggle(2000);
+            })
+        })
+    </script>
+</body>
+</html>

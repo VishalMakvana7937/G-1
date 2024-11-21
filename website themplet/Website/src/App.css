@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+.mb-107{
+    margin-bottom: 107px;
+}
+
+/* Header */
+#header{
+    background-color: #afc675;
+}
+.header-main{
+    height: 110px;
+}
+.h-menu span{
+    font-size: 30px;
+}
+.h-logo img{
+    max-width: 130px;
+    max-height: 71px;
+}
+.h-list li a{
+    color: #ffffff;
+    transition: all 0.3s;
+    font-family: 'Ubuntu', sans-serif;
+}
+.h-list li a:hover{
+    color: #0a472e;
+}
+.h-list li .home{
+    color: #0a472e;
+}
+.list-icon{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    -webkit-transition: all .3s ease;
+    transition: all .3s;
+}
+.list-icon:hover{
+    background: #23A455 !important;
+}
+.list-icon a{
+    width: 100%;
+    height: 100%;
+}
+.hp-price{
+    color: #ffffff;
+}
+/* ------------ and ------------ */
+.elementor-main-001{
+    position: relative;
+}
+.elementor-img-001{
+    width: 100%;
+    height: 320px;
+    background-image: url(../../../../public/elementor1.png);
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+    -webkit-transition:all 0.7s ease;
+    -moz-transition:all 0.7s ease;
+    -o-transition:all 0.7s ease;
+    transition:all 0.7s ease;
+}
+.elementor-img-003:hover,.elementor-img-001:hover{
+    background-position: 100%;
+}
+.elementor-img-003{
+    width: 100%;
+    height: 320px;
+    background-image: url(../../../../public/elementor4.png);
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+    -webkit-transition:all 0.7s ease;
+    -moz-transition:all 0.7s ease;
+    -o-transition:all 0.7s ease;
+    transition:all 0.7s ease;
+}
+.elementor-main-002{
+    position: relative !important;
+}
+.elementor-main-contain{
+    background-color: #ffe8c9;
+    padding: 20px;
+}
+.elementor-border-002{
+    width: 100%;
+    height: 280px; 
+    border: 1px solid #ffffff;
+    transition: all 0.4s;
+    text-align: center;
+}
+.elementor-main-002:hover .elementor-border-002{
+    border: 1px solid black;
+}
+.elementor-position-img-001{
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+}
+.elementor-position-img-002{
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+}
+.elementor-border-002 p{
+    padding-top: 54px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    text-rendering: optimizeLegibility;
+}
+.elementor-border-002 h2{
+    color: #0a472e;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 900;
+}
+.elementor-border-002 h3{
+    font-family: 'Great Vibes', cursive;
+    color: #a8b324;
+    font-weight: 800;
+    font-size: 48px;
+}
+.elementor-border-002 span{
+    font-family: 'Ubuntu', sans-serif;
+}
+.elementor-contain-001,.elementor-contain-003{
+    padding: 60px;
+}
+.elementor-contain-001 h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ff3b22;
+    font-weight: 900;
+}
+.elementor-contain-001 h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #0a472e;
+}
+.elementor-contain-001 a,.elementor-contain-003 a,.elementor-contain-004 a,.elementor-border-006 a{
+    background-color: #0a472e;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.elementor-contain-001 a:hover,.elementor-contain-003 a:hover,.elementor-contain-004 a:hover,.elementor-border-006 a:hover{
+    background-color: #a8b324;
+}
+.elementor-contain-003 h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    line-height: 30px;
+    color: #a8b324;
+    font-weight: 900;
+}
+.elementor-contain-003 h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #ff3b22;
+}
+.elementor-contain-003 h4{
+    font-family: 'Ubuntu', sans-serif;
+    color: #0a472e;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.elementor-img-004{
+    width: 100%;
+    height: 320px;
+    background-image: url(../../../../public/elementor5.png);
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+    -webkit-transition:all 0.7s ease;
+    -moz-transition:all 0.7s ease;
+    -o-transition:all 0.7s ease;
+    transition:all 0.7s ease;
+}
+.elementor-img-004:hover,.elementor-img-005:hover{
+    background-position: 100%;
+}
+.elementor-img-005{
+    width: 100%;
+    height: 320px;
+    background-image: url(../../../../public/elementor6.png);
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+    -webkit-transition:all 0.7s ease;
+    -moz-transition:all 0.7s ease;
+    -o-transition:all 0.7s ease;
+    transition:all 0.7s ease;
+}
+.elementor-contain-004{
+    padding: 60px 60px 60px 285px;
+}
+.elementor-contain-004 h2,.elementor-contain-005 h2,.elementor-border-006 h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #0a472e;
+}
+.elementor-contain-004 p,.elementor-contain-005 p,.elementor-border-006 p{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 20px;
+    color: #555;
+    font-size: 14px;
+}
+.elementor-contain-005{
+    padding: 60px;
+}
+.elementor-contain-005 h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    line-height: 30px;
+    color: #a8b324;
+    font-weight: 900;
+}
+.elementor-contact{
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 10px;
+}
+.elementor-contact span{
+    padding-right: 6px;
+    font-size: 16px;
+}
+.elementor-number{
+    color: #ff3b22;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 6px;
+}
+.elementor-border-005{
+    width: 100%;
+    height: 280px; 
+    border: 1px solid #ffffff;
+    transition: all 0.4s;
+    text-align: center;
+}
+.elementor-main-contain-006{
+    background-color: #e7f6d4;
+    padding: 20px;
+}
+.elementor-main-006{
+    position: relative !important;
+}
+.elementor-main-006:hover .elementor-border-006{
+    border: 1px solid black;
+}
+.elementor-border-006{
+    width: 100%;
+    height: 280px; 
+    border: 1px solid #ffffff;
+    transition: all 0.4s;
+    text-align: center;
+}
+.elementor-border-006 h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    line-height: 30px;
+    color: #a8b324;
+    font-weight: 900;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="s1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aliquam voluptate maiores, nostrum voluptas ut iste labore nam, deserunt nihil voluptates velit cum provident nisi debitis unde sapiente dicta optio excepturi, aspernatur et. Minima asperiores corporis explicabo dicta nulla dolor similique at deserunt vero eaque vitae, laboriosam voluptatibus nostrum autem, debitis adipisci exercitationem praesentium nisi omnis doloribus cum ex accusamus recusandae? Adipisci, autem quibusdam. Fugit adipisci id possimus eaque quis tempore impedit iure. Consectetur est reiciendis explicabo ipsum architecto sapiente illo ullam deserunt magnam? Officia quaerat debitis commodi reiciendis similique. Maxime, nemo at! Voluptate doloribus ex porro architecto ipsam perspiciatis deleniti quasi voluptatem rem. Ea voluptatem accusantium harum molestiae voluptatum eum, nobis assumenda possimus iure tenetur. Veniam necessitatibus ullam velit aperiam voluptates, ab perferendis consequuntur eligendi sapiente, minima, fugit dolore magni saepe dolor debitis praesentium alias nesciunt dignissimos qui in eveniet. Impedit repudiandae debitis adipisci facilis omnis totam est, facere ad ipsa eius repellat, porro earum voluptatibus veritatis eveniet laudantium blanditiis. Repudiandae veritatis commodi quia laudantium error ab itaque expedita quam iure nobis, architecto labore quae doloribus nihil qui nesciunt consectetur officia voluptatibus delectus ut iusto eum laborum amet doloremque? Vero soluta quo doloremque dolorum amet. Voluptatibus voluptatum omnis ipsam?
+    </p>
+    <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aliquam voluptate maiores, nostrum voluptas ut iste labore nam, deserunt nihil voluptates velit cum provident nisi debitis unde sapiente dicta optio excepturi, aspernatur et. Minima asperiores corporis explicabo dicta nulla dolor similique at deserunt vero eaque vitae, laboriosam voluptatibus nostrum autem, debitis adipisci exercitationem praesentium nisi omnis doloribus cum ex accusamus recusandae? Adipisci, autem quibusdam. Fugit adipisci id possimus eaque quis tempore impedit iure. Consectetur est reiciendis explicabo ipsum architecto sapiente illo ullam deserunt magnam? Officia quaerat debitis commodi reiciendis similique. Maxime, nemo at! Voluptate doloribus ex porro architecto ipsam perspiciatis deleniti quasi voluptatem rem. Ea voluptatem accusantium harum molestiae voluptatum eum, nobis assumenda possimus iure tenetur. Veniam necessitatibus ullam velit aperiam voluptates, ab perferendis consequuntur eligendi sapiente, minima, fugit dolore magni saepe dolor debitis praesentium alias nesciunt dignissimos qui in eveniet. Impedit repudiandae debitis adipisci facilis omnis totam est, facere ad ipsa eius repellat, porro earum voluptatibus veritatis eveniet laudantium blanditiis. Repudiandae veritatis commodi quia laudantium error ab itaque expedita quam iure nobis, architecto labore quae doloribus nihil qui nesciunt consectetur officia voluptatibus delectus ut iusto eum laborum amet doloremque? Vero soluta quo doloremque dolorum amet. Voluptatibus voluptatum omnis ipsam?
+    </p>
+
+    <!--  -->
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+        .bar{
+            width: 1140px;
+            background-color: aqua;
+            margin: 0 auto;
+        }
+        .d-flex{
+            display: flex;
+        }
+        .d-block{
+            display: block;
+        }
+        .d-none{
+            display: none;
+        }
+        .bar ul{
+            list-style: none;
+        }
+        .bar ul li{
+            padding-left: 20px;
+        }
+        .j-c-around{
+            justify-content: space-between;
+        }
+        .a-i-c{
+            align-items: flex-end;
+        }
+    </style>
+
+    <!--  -->
+    <button  class="para2">
+        slideUp
+    </button>
+    <button  class="para3">
+        slideDown
+    </button>
+    <button class="toggle">
+        toggle
+    </button>
+    
+    <!--  -->
+    <div class="box">
+
+    </div>
+    <button class="paras">
+        hide
+    </button>
+    <button class="paras2">
+        show
+    </button>
+    <button class="paras3">
+        to
+    </button>
+    <button class="paras4">
+        fadeOut
+    </button>
+    <button class="paras5">
+        fadeIn
+    </button>
+    <button class="paras6">
+        fadeToggle
+    </button>
+
+    <!--  -->
+    <div class="bar d-flex j-c-around">
+        <ul class="d-flex">
+            <li>
+                home
+            </li>
+            <li>
+                home
+            </li>
+            <li>
+                home
+            </li>
+            <li>
+                home
+            </li>
+        </ul>
+        <button class="btn">
+            +
+        </button>
+    </div>
+
+    <!--  -->
+    <script src="js/jquery.min.js" type="text/javascript"> </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".s1").click(function(){
+                    console.log("click-done");
+                    $(".s1").css("color","red");   
+                })
+                $(".para").click(function(){
+                    console.log("click-done");
+                    $(".para").css({"background-color":"yellow", "color":"red"});    
+                })
+                // 
+                $(".para2").click(function(){
+                    console.log("click-done");
+                    $(".para").slideUp(2000);  
+                })
+                $(".para3").click(function(){
+                    console.log("click-done");
+                    $(".para").slideDown(2000);    
+                })
+                $(".toggle").click(function(){
+                    console.log("click-done");
+                    $(".para").toggle(2000);    
+                })
+                // 
+                $(".paras").click(function(){
+                    console.log("click-done");
+                    $(".box").hide();    
+                })
+                $(".paras2").click(function(){
+                    console.log("click-done");
+                    $(".box").show();    
+                })
+                $(".paras3").click(function(){
+                    console.log("click-done");
+                    // $(".box").toggle(2000);   
+                })
+                // 
+                $(".paras4").click(function(){
+                    console.log("click-done");
+                    $(".box").fadeOut();    
+                })
+                $(".paras5").click(function(){
+                    console.log("click-done");
+                    $(".box").fadeIn();    
+                })
+                $(".paras6").click(function(){
+                    console.log("click-done");
+                    $(".box").fadeToggle();    
+                })  
+                // 
+                $(".btn").click(function(){
+                    console.log("click-done");
+                    // $("ul").addClass("d-block");
+                    // $("ul").removeClass("d-flex");
+                    $("ul").toggleClass("d-block");
+                    // $("ul").toggleClass("d-flex");
+                    $(this).html("_");
+                })
+            })
+    </script>
+</body>
+</html>
